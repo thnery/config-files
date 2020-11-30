@@ -91,9 +91,9 @@ nnoremap <C-k> :bprevious<CR>
 nnoremap <space> za
 nnoremap <C-y> :Rg<CR>
 nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
+nnoremap <Leader>w :NERDTreeToggle<CR>
+nnoremap <Leader>f :NERDTreeFocus<CR>
 " silent! noremap <C-p> :GFiles<CR>
-
-map <C-w> :NERDTreeToggle<CR>
 
 "" Airline
 let g:airline#extensions#tabline#enabled = 1
