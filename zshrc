@@ -1,5 +1,3 @@
-export ZSH="/Users/latacio.nery/.oh-my-zsh"
-
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="lambda-gitster"
 # ZSH_THEME="spaceship"
