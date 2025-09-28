@@ -2,22 +2,22 @@
 local opt = vim.opt
 
 -- Basic settings
-vim.opt.number = true
-vim.opt.relativenumber = false
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
-vim.opt.smartindent = true
-vim.opt.wrap = false
-vim.opt.ignorecase = true
-vim.opt.smartcase = true
-vim.opt.termguicolors = true
-vim.opt.signcolumn = "yes"
-vim.opt.updatetime = 300
+opt.number = true
+opt.relativenumber = false
+opt.expandtab = true
+opt.shiftwidth = 2
+opt.tabstop = 2
+opt.smartindent = true
+opt.wrap = false
+opt.ignorecase = true
+opt.smartcase = true
+opt.termguicolors = true
+opt.signcolumn = "yes"
+opt.updatetime = 300
 
 -- custom
-vim.opt.winbar = "%=%m %f"
-vim.opt.relativenumber = false
+opt.winbar = "%=%m %f"
+opt.relativenumber = false
 
 -- NerdTree configuration
 vim.g.NERDTreeShowHidden = 1
