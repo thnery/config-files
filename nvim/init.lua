@@ -18,8 +18,5 @@ require('plugins.git')
 require('plugins.statusline')
 -- require('plugins.rails')
 
--- Leader key
-vim.g.mapleader = ","
-
 -- Theme setup
 vim.cmd([[colorscheme tokyonight-night]])
